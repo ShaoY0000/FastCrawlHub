@@ -1,0 +1,40 @@
+name: Bug 报告
+description: 报告可以稳定复现的产品问题
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: 请先移除密码、令牌、服务器地址和业务数据。
+  - type: input
+    id: version
+    attributes:
+      label: FastCrawlHub 版本
+      placeholder: 例如 V5.2
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: 部署方式
+      options:
+        - Windows 本地版
+        - Linux Docker 单节点
+        - Linux Docker 集群
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 请按顺序描述操作和结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+
