@@ -50,5 +50,5 @@ FastCrawlHub 产品核心源码、授权服务和内部部署设施不在此仓�
 
 ## 当前版本
 
-FastCrawlHub V5.2 正在进行发布准备。进度见[公开路线图](ROADMAP.md)。
+FastCrawlHub 当前版本为 V5.2，核心平台能力与 Linux Docker 部署已经完成验收。后续发行与体验完善计划见[公开路线图](ROADMAP.md)。
 
